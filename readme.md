@@ -1,6 +1,6 @@
-# Delete Asset If Unused Extension
+# Delete Asset If Unused Extension for Silverstripe
 
-This module provides a new `deleteIfUnused()` method to `SilverStripe\Assets\File` objects, which when called will delete the File, but *only* if it isn't being used anywhere, e.g. by another `Page` or `DataObject`.
+This Silverstripe module provides a new `deleteIfUnused()` method to `SilverStripe\Assets\File` objects, which when called will delete the File, but *only* if it isn't being used anywhere, e.g. by another `Page` or `DataObject`.
 
 # When would I want to use this?
 
