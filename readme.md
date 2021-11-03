@@ -31,7 +31,7 @@ protected function onAfterDelete()
 }
 ````
 
-## How does it work out if an assest is/isn't being used?
+## How does it work out if an asset is/isn't being used?
 
 It uses the existing `findAllRelatedData()` method, which is what populates the **Used on** tab in the Files section of the CMS.
 
