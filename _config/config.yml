@@ -1,0 +1,7 @@
+---
+Name: asset-delete-if-unused-extension
+---
+
+SilverStripe\Assets\File:
+  extensions:
+    - PurpleSpider\AssetDeleteIfUnusedExtension\AssetDeleteIfUnusedExtension
