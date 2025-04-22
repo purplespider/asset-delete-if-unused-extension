@@ -13,6 +13,6 @@
         "issues": "http://github.com/purplespider/silverstripe-asset-delete-if-unused-extension/issues"
     },
     "require": {
-        "silverstripe/cms": "^4 || ^5"
+        "silverstripe/cms": "^6"
     }
 }

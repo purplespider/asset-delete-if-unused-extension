@@ -16,8 +16,11 @@ If it is associted with another object, it won't get deleted, unless, of course,
 
 1. Install module via composer:
 ````
-composer require purplespider/silverstripe-asset-delete-if-unused-extension "1.*"
+composer require purplespider/silverstripe-asset-delete-if-unused-extension "^2"
 ````
+For SilverStripe 4 or 5 use version 1 of this module.
+
+
 2. Perform a `dev/build?flush=1`: 
 
 3. Make use of the new `deleteIfUnused()` method in your code:
